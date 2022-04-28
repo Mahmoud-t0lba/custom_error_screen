@@ -1,16 +1,6 @@
-# custom_error
+# custom_error_screen
 
-A new Flutter project.
+Displays a custom error screen the way you like it instead of the red error screen
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screen Shot 2022-04-28 at 6 37 15 AM](https://user-images.githubusercontent.com/78425511/165677722-b32dcb7b-a7f0-4b8d-86fd-2dc0a4aca45b.png)
