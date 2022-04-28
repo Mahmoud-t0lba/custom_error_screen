@@ -1,7 +1,7 @@
 import 'package:custom_error/custom_error.dart';
 import 'package:flutter/material.dart';
 
-void main() async {
+void main() {
   customErrorScreen();
   runApp(const MyApp());
 }
@@ -11,17 +11,26 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(backgroundColor: Colors.blue),
-        body: Center(
-          child: Container(
-            height: 200,
-            width: 200,
-            color: Colors.blue,
-            // decoration: const BoxDecoration(),
-          ),
+      home: Home(),
+    );
+  }
+}
+
+class Home extends StatelessWidget {
+  const Home({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(backgroundColor: Colors.blue),
+      body: Center(
+        child: Container(
+          height: 200,
+          width: 200,
+          color: Colors.blue,
+          decoration: const BoxDecoration(),
         ),
       ),
     );
