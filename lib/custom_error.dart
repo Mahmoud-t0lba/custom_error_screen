@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 customErrorScreen() {
+  String errorPic = 'assets/images/error.png';
   return ErrorWidget.builder = ((details) {
     return Material(
       child: Container(
@@ -11,7 +12,7 @@ customErrorScreen() {
             SizedBox(
               width: 200,
               height: 200,
-              child: Image.asset('assets/images/error.png'),
+              child: Image.asset(errorPic),
             ),
             const SizedBox(height: 20),
             Padding(
